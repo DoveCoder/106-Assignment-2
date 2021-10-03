@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container-fluid {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+#iImportant {
+    font-size: 25px;
+    color: rgb(201, 204, 12);
+    cursor: pointer;
+}
+
+#iImportant:hover {
+    color:rgb(124, 126, 47)
+}
+
+form {
+    background-color: rgb(200,200,200,.2);
+    border-radius: 10px;
+    width: 35vw;
+}
+
+form div {
+    padding: 1rem;
+}
+
+.section-list {
+    justify-content: center;
+}
+
+.section-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: right !important;
+}
+
+#btnAdd {
+    justify-self: center !important;
+    margin: 0 auto;
+}
+
+/* body */
+
+.background-img {
+    height: 111vh;
+    background-image: url(https://eskipaper.com/images/light-gradient-wallpaper-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* header */
+
+header {
+    background-color: #151328;
+    color: white;
+}
+
+.container-fluid-header {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+/* task */
+
+.tasks {
+    background-color: rgb(200,200,200,.2);
+    border: 1px solid #302b5a;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .5rem auto;
+}
+
+.tasks h6 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.section-list h3 {
+    font-size: 2rem;
+    color: #151328;
+}
